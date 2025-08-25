@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Problem2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Angka yang harus di input: 55.5\n");
+        System.out.println("Angka yang harus di input: 55.5");
         System.out.print("Masukan jumlah pounds: ");
         if (!input.hasNextDouble()){
             System.out.println("ERROR: Input harus angka");
