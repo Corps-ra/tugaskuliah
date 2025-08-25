@@ -6,6 +6,10 @@ public class Problem3 {
         Scanner input = new Scanner(System.in);
         System.out.println("Angka yang harus input: 10 15");
         System.out.print("Masukan Subtotal dan grauity rate: "); 
+        if (!input.hasNextDouble()){
+            System.out.println("ERROR: Input harus angka");
+            return;
+        }
         int subtotal = input.nextInt();
         int gratuity = input.nextInt();
         double biaya = subtotal * gratuity / 100.0;

@@ -6,6 +6,10 @@ public class Problem1 {
         Scanner input = new Scanner(System.in);
         System.out.println("Angka yang harus di input: 5.5 12");
         System.out.print("Masukan radius dan panjang: ");
+        if (!input.hasNextDouble()){
+            System.out.println("ERROR: Input harus angka");
+            return;
+        }
         double radius = input.nextDouble();
         double length = input.nextDouble();
         

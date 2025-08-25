@@ -7,6 +7,10 @@ public class Problem2 {
         Scanner input = new Scanner(System.in);
         System.out.print("Angka yang harus di input: 55.5\n");
         System.out.print("Masukan jumlah pounds: ");
+        if (!input.hasNextDouble()){
+            System.out.println("ERROR: Input harus angka");
+            return;
+        }
         double pounds = input.nextDouble(); // yang harus di input adalah 55.5 punds
         double kilograms = pounds * 0.454;
 

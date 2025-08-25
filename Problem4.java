@@ -7,6 +7,10 @@ public class Problem4 {
     Scanner input = new Scanner(System.in);
     System.out.println("Angka yang harus input: 999");
     System.out.print("Masukan angka: ");
+    if (!input.hasNextDouble()){
+            System.out.println("ERROR: Input harus angka");
+            return;
+        }
     int number = input.nextInt();
     int sum = 0;
     while (number > 0) {
