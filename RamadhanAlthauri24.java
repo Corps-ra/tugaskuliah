@@ -1,4 +1,6 @@
 // Soal 2.4
+// NAMA : Muhammad Ramadhan Althauri
+// NIM : 09021382530163
 
 import java.util.Scanner;
 

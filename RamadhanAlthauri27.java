@@ -1,4 +1,6 @@
 //  Soal 2.7
+// NAMA : Muhammad Ramadhan Althauri
+// NIM : 09021382530163
 
 public class RamadhanAlthauri27 {
     public static void main(String[] args) {
