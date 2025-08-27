@@ -1,7 +1,7 @@
 // Soal 2.5
 import java.util.Scanner;
 
-public class Problem3 {
+public class RamadhanAlthauri25 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Angka yang harus input: 10 15");

@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Problem2 {
+public class RamadhanAlthauri24 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Angka yang harus di input: 55.5");
