@@ -13,13 +13,13 @@ public class RamadhanAlthauri26 {
             System.out.println("ERROR: Input harus angka");
             return;
         }
-    int number = input.nextInt();
-    int sum = 0;
-    while (number > 0) {
-        sum += number % 10;
-        number /= 10;
+    int angka = input.nextInt();
+    int jumlah = 0;
+    while (angka > 0) {
+        jumlah += angka % 10;
+        angka /= 10;
     }
 
-    System.out.println("The sum of the digits is " + sum);
+    System.out.println("The sum of the digits is " + jumlah);
  }   
 }
